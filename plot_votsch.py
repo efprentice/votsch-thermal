@@ -38,10 +38,10 @@ ax1.set_title('Votsch Thermal Chamber: Sensor Readings')
 ax1.plot(df['Time'],df['Temp[C]'],'tab:blue')
 ax1.set_ylabel('Temperature [degC]')
 
-ax2.plot(df['Time'],df['Humidity[%]'],'tab:green')
+ax2.plot(df['Time'],df['Humidity[%]'],'tab:orange')
 ax2.set_ylabel('Humidity [%]')
 
-ax3.plot(df['Time'],df['Pressure[mb]'],'tab:orange')
+ax3.plot(df['Time'],df['Pressure[mb]'],'tab:green')
 ax3.set_ylabel('Pressure [mb]')
 plt.ticklabel_format(axis='y',useOffset=False)
 ax3.set_xlabel('Time')
